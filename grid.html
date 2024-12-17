@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+    <!-- events of javascript -->
+    <button onclick="yesno();">night mode</button>
+    <button onclick="bglight();">light mode</button>
+    <button onclick="jotaronow();">ค่าปัจจุบัน</button>
+
+    <div class="grid-con">
+
+        <div class="item">header1</div>
+
+        <div class="item">
+            <button onclick="textsec1();">กดเพื่อดูเนื้อหา</button>
+            <div id="to">รำคาญ</div>
+        </div>
+
+        <div class="item">
+            <p>ลองกดดูไอโง่</p>
+            <button onclick="addmenu();">สร้างเมนูขึ้น</button>
+            <ul id="menuup">
+
+            </ul>
+        </div>
+
+        <div class="item" id="del">
+            <button onclick="dee();">กดเพื่อลบ</button>
+            <button onclick="rep();">กดแทนที่</button>
+            <p id="p1">A</p>
+            <p id="p2">B</p>
+            <p id="p3">C</p>
+            <p id="p4">D</p>
+            
+        </div>
+
+        <div class="item">add remove class
+            <div id="domcss">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aliquam labore error, autem, sint recusandae molestiae ex aspernatur doloremque provident illum dolor in enim reiciendis harum voluptatem obcaecati distinctio dolores!</p>
+            </div>
+
+            <button onclick="addclass();">เพิ่ม</button>
+            <button onclick="removeclass();">ลบ</button>
+            <button onclick="swmode();">สลับสไตล์</button>
+
+        </div>
+
+        <div class="item">Dom event
+            <div>
+                <label for="text">onfocus</label>
+                <input type="text" placeholder="ลองtyping for onfocus" onfocus="hl(this);" onblur="unhl(this);">
+            </div>
+            <label for="">เลือกภาษาFront-end</label>
+            <select name="" id="usemenu" onchange="getmenu();">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Javascrpit">Javascrpit</option>
+            </select>
+            <p id="showpro">แสดงผลการเลือก</p>
+        </div>
+
+        <div class="item">Event listeners
+            <div id="eventjs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus rerum iste eveniet soluta commodi exercitationem.</div>
+            <button id="eventsubmit">เปลี่ยนข้อความ</button>
+        </div>
+
+        <div class="item">prompt
+            <div>
+
+            </div>
+        </div>
+        <div class="item">footer9</div>
+    </div>
+    
+
+    <!-- Javascrpit file -->
+    <script src="grid.js"></script>
+
+</body>
+</html>
