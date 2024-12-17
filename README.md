@@ -1,2 +1,6 @@
 # Javascript-summarize
-All commands Javascript +CSS with Grid concept
+All commands Javascript and CSS with Grid concept
+
+run files ---> grid.html
+
+
